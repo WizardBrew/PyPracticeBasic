@@ -10,13 +10,13 @@ string = "WizardBrew"                       # String unpacking
 
 # print(len(MyString))
 
-print(MyString[4::])                      # Print from 4th Character to rest of it
-print(MyString[:10:])                     # Prints till the 10 Chracter from 1st
+print(MyString[4::])                      # Print from 4th Character  to rest of it by default till end 
+print(MyString[:10:])                     # Prints till the 10 Chracter from 1st by default start with 0
 print(MyString[::2])                      # Skipes 1 Characters (However default is 1)
 print(MyString[-10::])                    # Prints from last 10 characters only (Programing)
 print(MyString[:-10:])                    # Prints skipping last 10 Characters  skips (Programing)
 print(MyString[::-1])                     # Prints In reverse Order all Characters  from back 
-print(MyString[::-2])                     # Skips In reverse 2 Order all Characters  from back 
+print(MyString[::- 2])                     # Skips In reverse 2 Order all Characters  from back 
 print(MyString[11:23:])                   # Prints from 11 Characters  till 23 & skips rest
 print(MyString[-22:-11:])                 # Prints reverse -25th char till reverse -15th char
 print(MyString[11:23:2])                  # Prints from 11 Characters  till 23 & skips 2 between
@@ -24,4 +24,4 @@ print(MyString[-22:-11:2])                # Prints reverse -22th char till rever
 
 
 
-
+ 
